@@ -1,0 +1,14 @@
+{% extends "layout.njk" %}
+{% import "macros/nav-macro.njk" as nav %}
+
+{% block content %}
+<h2 class="hello"> Yo soy una prueba muy buena, Hello World </h2>
+
+<h3 class='sass-style'> Yo estoy estilizado con SASS, hello again </h3>
+
+{{ nav.active('home') }}
+
+<a href="./otro.html"> Link </a>
+
+
+{% endblock %}
